@@ -33,18 +33,18 @@ Feature: Test the Login functionality
     Then I should see the "username error" in the "error" field
 
   @Negative_Login
-  Scenario: Black User Name and Blank Password
+  Scenario: Valid Username Name and Blank Password
     When I enter a "Valid username" in the "username" field
     When I Click the "Login button"
     Then I should see the "password error" in the "error" field
 
   @Negative_Login
-  Scenario: Black User Name and Blank Password
+  Scenario: Blank Username Name and Valid password
     When I enter a "Valid password" in the "password" field
     When I Click the "Login button"
     Then I should see the "username error" in the "error" field
 
   @Negative_Login
-  Scenario: Black User Name and Blank Password
+  Scenario: Blank Username and Blank Password
     When I Click the "Login button"
     Then I should see the "username error" in the "error" field
