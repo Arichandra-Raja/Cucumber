@@ -28,6 +28,7 @@ public class LoginSteps {
                 break;
             default:
                 throw new IllegalArgumentException("Value " + value + " not recognized.");
+                
         }
     }
 

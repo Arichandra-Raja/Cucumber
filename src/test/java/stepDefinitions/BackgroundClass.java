@@ -13,6 +13,8 @@ public class BackgroundClass {
 	@Given("I launch the browser")
     public void i_launch_the_browser() {
         BaseClass.initializeDriver();
+        
+        System.out.println("Lauched the browser Successfully");
     }
 
     @And("I am on the {string}")
