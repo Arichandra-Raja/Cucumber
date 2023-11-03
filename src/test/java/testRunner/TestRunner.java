@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
         "html:target/htmlReports.html",
         "pretty"
     }
-    //run the allure serve command in project terminal
+    //run the "allure serve" command in project terminal
+    // To run the allure report , allure command line should be installed
 )
 public class TestRunner {
 }

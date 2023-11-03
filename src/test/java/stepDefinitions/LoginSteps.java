@@ -69,8 +69,11 @@ public class LoginSteps {
                 break;
             default:
                 throw new IllegalArgumentException("Field " + fieldName + " not recognized.");
-		System.out.println("Catch the message successfully");
+                
+		
+		
         }
+       
     }
 
 
